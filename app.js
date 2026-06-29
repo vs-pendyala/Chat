@@ -2,14 +2,24 @@
 //  CONFIGURATION — fill these in after Firebase setup
 //  See SETUP.md for step-by-step instructions
 // ─────────────────────────────────────────────────────────
-const FIREBASE_CONFIG = {
-  apiKey:            "REPLACE_WITH_YOUR_API_KEY",
-  authDomain:        "REPLACE_WITH_YOUR_AUTH_DOMAIN",
-  databaseURL:       "REPLACE_WITH_YOUR_DATABASE_URL",
-  projectId:         "REPLACE_WITH_YOUR_PROJECT_ID",
-  storageBucket:     "REPLACE_WITH_YOUR_STORAGE_BUCKET",
-  messagingSenderId: "REPLACE_WITH_YOUR_MESSAGING_SENDER_ID",
-  appId:             "REPLACE_WITH_YOUR_APP_ID"
+const firebaseConfig = {
+
+  apiKey: "AIzaSyBs1C_ihgm7iuFJCs9Rh0782AL0cGR1zvE",
+
+  authDomain: "corner-21bd9.firebaseapp.com",
+
+  databaseURL: "https://corner-21bd9-default-rtdb.firebaseio.com",
+
+  projectId: "corner-21bd9",
+
+  storageBucket: "corner-21bd9.firebasestorage.app",
+
+  messagingSenderId: "273181697739",
+
+  appId: "1:273181697739:web:2344c164ac4608a7e51d4e",
+
+  measurementId: "G-KFXPNR2X2L"
+
 };
 
 // The secret key — anyone who knows this can read messages.
